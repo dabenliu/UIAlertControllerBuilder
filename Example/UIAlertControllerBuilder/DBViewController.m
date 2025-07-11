@@ -27,16 +27,16 @@
 }
 
 - (void)showAlert {
-    //    AlertBuilder(UIAlertControllerStyleAlert)
-    //        .title(@"提示")
-    //        .message(@"点击下面按钮可以打印日志。")
-    //        .addAction(@"取消", UIAlertActionStyleCancel, nil, ^(UIAlertAction *action, UIAlertController *alert) {
-    //            NSLog(@"取消");
-    //        })
-    //        .addAction(@"确定", UIAlertActionStyleDefault, [UIColor blueColor], ^(UIAlertAction *action, UIAlertController *alert) {
-    //            NSLog(@"确定");
-    //        })
-    //        .presentIn(self);
+        AlertBuilder(UIAlertControllerStyleAlert)
+            .title(@"提示")
+            .message(@"点击下面按钮可以打印日志。")
+            .addAction(@"取消", UIAlertActionStyleCancel, nil, ^(UIAlertAction *action, UIAlertController *alert) {
+                NSLog(@"取消");
+            })
+            .addAction(@"确定", UIAlertActionStyleDefault, [UIColor blueColor], ^(UIAlertAction *action, UIAlertController *alert) {
+                NSLog(@"确定");
+            })
+            .presentIn(self);
     
     //    __weak typeof(self) weakSelf = self;
     //    AlertBuilder()
