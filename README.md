@@ -65,7 +65,7 @@ AlertBuilder(UIAlertControllerStyleAlert)
 
 #### 📸 弹窗效果 Screenshot
 
-<img src="https://github.com/dabenliu/UIAlertControllerBuilder/blob/main/SimulatorScreenshot.png" alt="UIAlertControllerBuilder 示例效果" width="400"/>
+<img src="https://github.com/dabenliu/UIAlertControllerBuilder/blob/main/example_picture.png" alt="UIAlertControllerBuilder 示例效果" width="400"/>
 
 ---
 
