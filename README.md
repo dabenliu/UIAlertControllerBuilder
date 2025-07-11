@@ -63,10 +63,6 @@ AlertBuilder(UIAlertControllerStyleAlert)
     .presentIn(self);
 ```
 
-#### 📸 弹窗效果 Screenshot
-
-<img src="https://github.com/dabenliu/UIAlertControllerBuilder/blob/main/alert.png" alt="UIAlertControllerBuilder 示例效果" width="400"/>
-
 ---
 
 ### 2. 带输入框的 Alert 弹窗 Alert with Input
