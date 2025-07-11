@@ -1,6 +1,5 @@
 # UIAlertControllerBuilder
 
-[![CI Status](https://img.shields.io/travis/dabenliu/UIAlertControllerBuilder.svg?style=flat)](https://travis-ci.org/dabenliu/UIAlertControllerBuilder)
 [![Version](https://img.shields.io/cocoapods/v/UIAlertControllerBuilder.svg?style=flat)](https://cocoapods.org/pods/UIAlertControllerBuilder)
 [![License](https://img.shields.io/cocoapods/l/UIAlertControllerBuilder.svg?style=flat)](https://cocoapods.org/pods/UIAlertControllerBuilder)
 [![Platform](https://img.shields.io/cocoapods/p/UIAlertControllerBuilder.svg?style=flat)](https://cocoapods.org/pods/UIAlertControllerBuilder)
