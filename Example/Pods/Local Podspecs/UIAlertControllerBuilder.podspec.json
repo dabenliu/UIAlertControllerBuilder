@@ -1,0 +1,22 @@
+{
+  "name": "UIAlertControllerBuilder",
+  "version": "0.1.0",
+  "summary": "A short description of UIAlertControllerBuilder.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/大笨刘/UIAlertControllerBuilder",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "大笨刘": "dabenliu@outlook.com"
+  },
+  "source": {
+    "git": "https://github.com/大笨刘/UIAlertControllerBuilder.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "UIAlertControllerBuilder/Classes/**/*"
+}

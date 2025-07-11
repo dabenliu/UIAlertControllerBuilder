@@ -7,36 +7,19 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'UIAlertControllerBuilder'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of UIAlertControllerBuilder.'
+    s.name         = 'UIAlertControllerBuilder'
+    s.version      = '0.1.0'
+    s.summary      = 'Objective-C 链式构建 UIAlertController'
+    s.description  = <<-DESC
+    UIAlertControllerBuilder 是一个链式调用封装的 UIAlertController 创建器，支持 Alert/ActionSheet、多按钮、文本输入、iPad popover、颜色自定义等。
+    DESC
 
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
+    s.homepage     = 'https://github.com/dabenliu/UIAlertControllerBuilder'
+    s.license      = { :type => 'MIT', :file => 'LICENSE' }
+    s.author       = { '大笨刘' => 'dabenliu@outlook.com' }
+    s.source       = { :git => 'https://github.com/dabenliu/UIAlertControllerBuilder.git', :tag => s.version.to_s }
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/大笨刘/UIAlertControllerBuilder'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '大笨刘' => 'dabenliu@outlook.com' }
-  s.source           = { :git => 'https://github.com/大笨刘/UIAlertControllerBuilder.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '10.0'
-
-  s.source_files = 'UIAlertControllerBuilder/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'UIAlertControllerBuilder' => ['UIAlertControllerBuilder/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.platform     = :ios, '9.0'
+    s.source_files  = 'UIAlertControllerBuilder/Classes/**/*'
+    s.requires_arc = true
 end
