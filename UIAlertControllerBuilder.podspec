@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
     s.name         = 'UIAlertControllerBuilder'
-    s.version      = '0.1.0'
+    s.version      = '0.1.1'
     s.summary      = 'Objective-C 链式构建 UIAlertController'
     s.description  = <<-DESC
     UIAlertControllerBuilder 是一个链式调用封装的 UIAlertController 创建器，支持 Alert/ActionSheet、多按钮、文本输入、iPad popover、颜色自定义等。
